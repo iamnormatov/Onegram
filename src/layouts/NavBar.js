@@ -13,7 +13,7 @@ import CreatePost from '../components/createPost/CreatePost';
 import useUser from '../hooks/useUser';
 import "./style.css";
 import SearchBar from './SearchBar';
-
+ 
 const NavBar = () => {
     const navigate = useNavigate();
     const searchRef = useRef();
