@@ -1,7 +1,7 @@
 import React, { useContext, useState } from 'react';
 import UserContext from './../../context/user';
 import FirebaseContext from './../../context/firebase';
-
+ 
 const Actions = ({ docId, totalLikes, likedPhoto, handleFocus }) => {
     const {
         user: {uid: userId = ''}
