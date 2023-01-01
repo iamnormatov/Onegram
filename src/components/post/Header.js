@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-
+ 
 const Header = ({ username, avatarSrc }) => {
     return (
         <div className="flex border-b border-gray-primary h-4 p-4 py-8">
