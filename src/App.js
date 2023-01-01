@@ -9,7 +9,7 @@ import ProtectedRoute from "./helpers/ProtectedRoute";
 import IsUserLoggedIn from "./helpers/IsUserLoggedIn";
 import EditUserPage from "./pages/UserPage/EditUserPage";
 import ReactLoading from 'react-loading';
-
+ 
 const Login = React.lazy(() => import ("./pages/Auth/Login.js"));
 const SignUp = React.lazy(() => import ("./pages/Auth/SignUp.js"));
 const HomePage = React.lazy(() => import ("./pages/HomePage/HomePage"));
