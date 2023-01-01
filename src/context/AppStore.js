@@ -1,7 +1,7 @@
 import React, { useState, useContext, createContext } from 'react';
 
 const userState = {};
-
+ 
 export const Context = createContext();
  
 const AppStore = ({ children }) => {
