@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import Skeleton from 'react-loading-skeleton';
 import useUser from './../../hooks/useUser';
 import { isUserFollowingProfile, toggleFollow } from './../../services/firebase';
-
+ 
 const Header = ({
     user: currentUser,
     photosCount,
