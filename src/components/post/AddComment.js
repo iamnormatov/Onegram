@@ -3,7 +3,7 @@ import { EMOJISCHAR } from '../../helpers/Emojis';
 import FirebaseContext from './../../context/firebase';
 import UserContext from './../../context/user';
 import SmileSvg from './../createPost/SmileSvg';
-
+ 
 const AddComment = ({ docId, comments, setComments, commentInput }) => {
     const [ comment, setComment ] = useState('');
     const emojiRef = useRef();
