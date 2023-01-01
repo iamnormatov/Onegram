@@ -1,5 +1,5 @@
 import React from 'react';
-
+ 
 const UploadImage = ({ imageInput, handleUpload}) => {
     return (
         <div className="relative p-6 flex items-center justify-center" style={{width: 570, height: 570, zIndex: 10000}}>
