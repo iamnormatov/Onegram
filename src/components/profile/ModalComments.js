@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { getUserByUsername } from './../../services/firebase';
-
+ 
 const ModalComments = ({ comment, redirect, setComments }) => {
     const [ user, setUser ] = useState({});
 
