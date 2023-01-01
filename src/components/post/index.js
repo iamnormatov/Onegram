@@ -4,7 +4,7 @@ import Header from './Header';
 import Image from './Image';
 import Footer from './Footer';
 import Comments from './Comments';
-
+ 
 const Post = ({ content }) => {
     const commentInput = useRef(null);
     const handleFocus = () => commentInput.current.focus();
