@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { updateLoggedInUserFollowing } from '../../services/firebase';
 import { updateFollowedUserFollowers } from './../../services/firebase';
-
+ 
 const SuggestedProfile = ({ profileDocId, username, profileId, userId, loggedInUserDocId, profileImage }) => {
     const [ followed, setFollowed ] = useState(false);
 
