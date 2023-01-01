@@ -1,5 +1,5 @@
 import React from 'react';
-
+ 
 const SendSvg = () => {
     return (
         <svg width="22px" height="22px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
