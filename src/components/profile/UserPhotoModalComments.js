@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from "react-router-dom";
 import ModalComments from './ModalComments';
-
+ 
 const UserPhotoModalComments = ({ photo, setShowModal }) => {
     const [ comments, setComments ] = useState(photo.comments);
     const navigate = useNavigate();
