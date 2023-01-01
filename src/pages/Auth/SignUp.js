@@ -4,7 +4,7 @@ import FirebaseContext from './../../context/firebase';
 import "./style.css";
 import { HOME, LOGIN } from './../../constants/routes';
 import { doesUsernameExist } from './../../services/firebase';
-
+ 
 
 const SignUp = () => {
     const { firebase } = useContext(FirebaseContext);
