@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Skeleton from 'react-loading-skeleton';
 import UserPhotoModal from './UserPhotoModal';
-
+ 
 const Photos = ({ photos }) => {
     const [ post, setPost ] = useState({});
     const [ showModal, setShowModal ] = useState(false);
