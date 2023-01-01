@@ -12,7 +12,7 @@ import FooterModal from "./FooterModal";
 import UserContext from './../../context/user';
 import UserPhotoModalPost from './UserPhotoModalPost';
 import { UserProfileContext } from './UserProfile';
-
+ 
 const UserPhotoModal = ({ showModal, setShowModal, photo }) => {
     const { user: currentUser } = useContext(UserContext);
     const { getProfileInfoAndPhotos } = useContext(UserProfileContext);
