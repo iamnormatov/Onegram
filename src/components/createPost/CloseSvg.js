@@ -1,5 +1,5 @@
 import React from 'react';
-
+ 
 const CloseSvg = () => {
     return (
         <div className="z-20">
