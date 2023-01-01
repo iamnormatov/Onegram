@@ -5,7 +5,7 @@ import { getPhotosByPhotoId } from '../../services/firebase';
 import FirebaseContext from './../../context/firebase';
 import { formatDistance } from 'date-fns';
 import { EMOJISCHAR } from '../../helpers/Emojis';
-
+ 
 const FooterModal = ({ post, setPost }) => {
     const { user } = useContext(UserContext);
     const [ toggleLiked, setToggleLiked ] = useState(post.userLikedPhoto);
