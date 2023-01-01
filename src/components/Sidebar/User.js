@@ -1,7 +1,7 @@
 import React, { memo } from 'react';
 import Skeleton from "react-loading-skeleton";
 import { Link } from 'react-router-dom';
-
+ 
 const User = ({ username, fullName, avatarSrc }) => (
     !username || !fullName ? (
         <Skeleton count={1} height={61} />
