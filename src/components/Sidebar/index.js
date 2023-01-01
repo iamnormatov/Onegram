@@ -2,7 +2,7 @@ import React from 'react';
 import useUser from './../../hooks/useUser';
 import Suggestions from './Suggestions';
 import User from './User';
-
+ 
 const Sidebar = () => {
     const { user: { docId, fullName, username, userId, following, avatarSrc } } = useUser();
 
