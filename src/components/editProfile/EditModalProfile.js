@@ -3,7 +3,7 @@ import { getStorage, ref, deleteObject } from "firebase/storage";
 import { storage } from './../../lib/firebase';
 import { updateAvatarUser } from '../../services/firebase';
 import { updateProfile } from 'firebase/auth';
-
+ 
 const EditModalProfile = ({ modalOpen ,setModalOpen, avatarSrc, openInput, userId }) => {
 
     const deleteAvatar = async () => {
