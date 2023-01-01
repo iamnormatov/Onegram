@@ -5,7 +5,7 @@ import { useNavigate } from 'react-router-dom';
 import { NOT_FOUND } from './../../constants/routes';
 import Header from './../../components/profile/Header';
 import UserProfile from './../../components/profile/UserProfile';
-
+ 
 const UserPage = () => {
     const { username } = useParams();
     const [ user, setUser ] = useState(null);
