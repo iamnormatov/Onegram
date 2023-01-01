@@ -8,7 +8,7 @@ import ReactLoading from 'react-loading';
 import useUser from "../../hooks/useUser";
 import { updateUser } from './../../services/firebase';
 import EditModalProfile from "../../components/editProfile/EditModalProfile";
-
+ 
 const EditUserPage = () => {
     const [ loading, setLoading ] = useState(false);
     const [ fullname, setFullname ] = useState('');
