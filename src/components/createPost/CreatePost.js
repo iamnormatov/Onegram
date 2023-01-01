@@ -4,7 +4,7 @@ import CloseSvg from './CloseSvg';
 import ConfirmCreatePost from './ConfirmCreatePost';
 import UploadImage from './UploadImage';
 import {RemoveScrollBar} from 'react-remove-scroll-bar';
-
+ 
 const CreatePost = ({ open, setOpen }) => {
     const [image, setImage] = useState(null);
     const [ confirmModal, setConfirmModal ] = useState(false);
