@@ -7,7 +7,7 @@ import { v4 as uuidv4 } from 'uuid';
 import useUser from './../../hooks/useUser';
 import { addPostToFirestore } from './../../services/firebase';
 import ReactLoading from 'react-loading';
-
+ 
 const ConfirmCreatePost = ({ image, back }) => {
     const { user: { docId, fullName, username, userId, following } } = useUser();
     const emojiRef = useRef(null);
