@@ -2,7 +2,7 @@ import React from 'react';
 import Skeleton from "react-loading-skeleton";
 import usePhotos from './../hooks/usePhotos';
 import Post from './post/index';
-
+ 
 const Timeline = () => {
     const { photos } = usePhotos();
     return (
