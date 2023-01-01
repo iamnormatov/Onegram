@@ -2,7 +2,7 @@ import React, { useReducer, useEffect, createContext } from 'react';
 import { getUserPhotosByUsername } from './../../services/firebase';
 import Header from './Header';
 import Photos from './Photos';
-
+ 
 export const UserProfileContext = createContext();
 
 const UserProfile = ({ user }) => {
