@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { getAllUsers } from './../services/firebase';
 import { Link } from "react-router-dom";
-
+ 
 const SearchBar = ({ searchInput }) => {
     const [ users, setUsers ] = useState([]);
     const [ filteredItems, setFilteredItems ] = useState([]);
